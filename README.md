@@ -155,7 +155,7 @@ Update the MQTT configuration in the yaml file:
 
 ```yaml
 mqtt:
-  broker: 192.168.1.100  # Your MQTT broker IP (usually Venus OS IP)
+  broker: <VENUS_OS_IP>  # Your Venus OS / MQTT broker IP
   topic_prefix: battery   # Use 'battery' for chain1, 'battery2' for chain2
 ```
 
@@ -189,7 +189,7 @@ esphome compile jbd-all-batteries1.yaml
 esphome upload jbd-all-batteries1.yaml --device jbd-all-batteries.local
 
 # Or specify IP directly
-esphome upload jbd-all-batteries1.yaml --device 192.168.1.50
+esphome upload jbd-all-batteries1.yaml --device <ESP32_IP>
 ```
 
 ### Compile Only (No Upload)
@@ -206,7 +206,7 @@ esphome compile jbd-all-batteries1.yaml
 esphome logs jbd-all-batteries1.yaml
 
 # Or via IP
-esphome logs jbd-all-batteries1.yaml --device 192.168.1.50
+esphome logs jbd-all-batteries1.yaml --device <ESP32_IP>
 ```
 
 ## ESP32 Web Interface
@@ -315,7 +315,7 @@ After ESP32 is running, install the MQTT-to-D-Bus bridge on Venus OS:
 ```bash
 # On Venus OS (Cerbo GX)
 cd /data/apps/dbus-mqtt-battery
-./install.sh 192.168.1.100  # MQTT broker IP
+./install.sh <VENUS_OS_IP>  # MQTT broker IP
 ```
 
 See `../README.md` for full Venus OS integration instructions.
