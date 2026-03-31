@@ -23,6 +23,10 @@ This project solves the problem of integrating JBD (Jiabaida) BMS-equipped LiFeP
 - **Low latency**: Direct BLE-to-MQTT bridge with minimal overhead
 - **OTA updates**: Update firmware wirelessly without physical access
 
+## Screenshot
+
+![ESPHome JBD BMS Dashboard](images/Screenshot.png)
+
 ## Hardware Requirements
 
 - **ESP32 DevKit** (ESP32-WROOM-32 or similar) - one per 4 batteries
