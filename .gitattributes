@@ -1,6 +1,2 @@
-# Override GitHub linguist language detection
-# Show as YAML (ESPHome) project - hide component implementation files
-*.yaml linguist-detectable=true
-*.cpp linguist-detectable=false
-*.h linguist-detectable=false
-*.py linguist-detectable=false
+# GitHub linguist hints
+*.yaml linguist-language=YAML
