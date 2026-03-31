@@ -9,8 +9,8 @@ This project solves the problem of integrating JBD (Jiabaida) BMS-equipped LiFeP
 ### Architecture
 
 ```
-┌─────────────┐    BLE    ┌─────────────┐    MQTT    ┌─────────────┐
-│   JBD BMS   │◄────────►│    ESP32    │──────────►│  Venus OS   │
+┌─────────────┐    BLE    ┌─────────────┐    MQTT   ┌─────────────┐
+│   JBD BMS   │◄─────────►│    ESP32    │──────────►│  Venus OS   │
 │  (Battery)  │           │  (ESPHome)  │           │  (Cerbo GX) │
 └─────────────┘           └─────────────┘           └─────────────┘
        ×4                                            D-Bus Service
