@@ -3,6 +3,10 @@
 [![CI](https://github.com/victron-venus/esphome-jbd-bms-mqtt/actions/workflows/ci.yml/badge.svg)](https://github.com/victron-venus/esphome-jbd-bms-mqtt/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Release](https://img.shields.io/github/v/release/victron-venus/esphome-jbd-bms-mqtt)](https://github.com/victron-venus/esphome-jbd-bms-mqtt/releases)
+[![ESPHome](https://img.shields.io/badge/ESPHome-2024.x-blue.svg)](https://esphome.io/)
+[![ESP32](https://img.shields.io/badge/ESP32-supported-green.svg)](https://www.espressif.com/en/products/socs/esp32)
+[![GitHub stars](https://img.shields.io/github/stars/victron-venus/esphome-jbd-bms-mqtt)](https://github.com/victron-venus/esphome-jbd-bms-mqtt/stargazers)
+[![GitHub last commit](https://img.shields.io/github/last-commit/victron-venus/esphome-jbd-bms-mqtt)](https://github.com/victron-venus/esphome-jbd-bms-mqtt/commits/main)
 
 ESP32-based Bluetooth proxy for JBD BMS batteries, publishing data via MQTT to Victron Venus OS.
 
